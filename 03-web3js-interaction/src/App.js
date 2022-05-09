@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Web3 from "web3";
 
-// Taken after local blockchain is started after "truffle deploy"
+// Taken after local blockchain is started using "truffle develop"
 const ETH_PROVIDER_URL = "http://127.0.0.1:9545/";
 
 // Taken from the deployed contract after "truffle migrate"
